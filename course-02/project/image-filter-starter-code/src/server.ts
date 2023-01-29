@@ -41,13 +41,14 @@ import { url } from 'inspector';
 
       filterImageFromURL(image.image_url)
       .then(filteredimage => {
-        return res.status(200).send(filteredimage)
+        return res.status(200).sendFile(filteredimage)
+        let file: Array<string> = []
+        file.push(filteredimage.toString())
+        deleteLocalFiles(file)
       }).catch(() => {
         return res.status(422).send("Error Processing Image");
       });   
-    //let file: Array<string> = []
-    //file.push(filteredImage.toString())
-    //deleteLocalFiles(file)
+    
 
 } );
   // Root Endpoint
