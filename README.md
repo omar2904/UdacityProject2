@@ -18,13 +18,11 @@ Here is the repository structure:
     ├── exercises
     └── project
     
-    
-```![Elastic Beanstalk](https://user-images.githubusercontent.com/55881867/219316354-fa077571-6440-40b3-a916-64262eb189db.png)
-
 
 Elastic Beanstalk:
 -------------------
 image-filter-starter-code-dev222222222222.us-east-1.elasticbeanstalk.com
+[Elastic Beanstalk Screenshot image](https://user-images.githubusercontent.com/55881867/219316677-d81bec3e-3c29-4f20-8c83-d3b12abd36f2.png)
 
 Github Repo:
 -------------
