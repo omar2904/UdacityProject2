@@ -34,12 +34,12 @@ import { url } from 'inspector';
   //! END @TODO1
 
   app.get( "/filteredimage/", async (req:express.Request, res:express.Response) => {
-    let  image  = req.query;
+    let  image:string  = req.query.image_url;
     
-    if(image.image_url == undefined)
+    if(image == undefined)
       return res.status(422).send(`Please enter valid url`)
 
-      filterImageFromURL(image.image_url)
+      filterImageFromURL(image)
       .then(filteredimage => {
         return res.status(200).sendFile(filteredimage)
         let file: Array<string> = []
