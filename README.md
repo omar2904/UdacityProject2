@@ -17,7 +17,10 @@ Here is the repository structure:
 └── course-04
     ├── exercises
     └── project
-```
+    
+    
+```![Elastic Beanstalk](https://user-images.githubusercontent.com/55881867/219316354-fa077571-6440-40b3-a916-64262eb189db.png)
+
 
 Elastic Beanstalk:
 -------------------
