@@ -21,7 +21,7 @@ Here is the repository structure:
 
 Elastic Beanstalk:
 -------------------
-image-filter-starter-code-env.eba-xr5qtr3r.us-east-1.elasticbeanstalk.com 
+image-filter-starter-code-env.eba-xr5qtr3r.us-east-1.elasticbeanstalk.com
 [Elastic Beanstalk Screenshot image](https://user-images.githubusercontent.com/55881867/219316677-d81bec3e-3c29-4f20-8c83-d3b12abd36f2.png)
 
 Github Repo:
